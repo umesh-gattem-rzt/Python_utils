@@ -45,11 +45,11 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='python tensorflow deeplearning neural networks',
+    keywords='python deeplearning neural networks utils',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['rztdl', 'docs', 'tests', 'samples']),
+    # packages=find_packages(exclude=['rztdl', 'docs', 'tests', 'samples']),
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
@@ -59,16 +59,16 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['tensorflow', 'jsonpickle'],
+    install_requires=['pyhdfs'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
     # for example:
     # $ pip install -e .[dev,test]
-    extras_require={
-        'dev': ['check-manifest'],
-        'test': ['coverage'],
-    },
+    # extras_require={
+    #     'dev': ['check-manifest'],
+    #     'test': ['coverage'],
+    # },
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
