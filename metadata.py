@@ -11,5 +11,5 @@ __classifiers__ = [
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
 ]
-__url__ = 'https://github.com/razorthinksoftware/rztdl'
+__url__ = 'https://github.com/umesh-gattem-rzt/Python_utils'
 __keywords__ = 'rzt deeplearning utils'
